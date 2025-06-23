@@ -4,6 +4,15 @@
     justify-content: space-between;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(0, 191, 255);
+
+
+}
+#smallCardBox{
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    margin: 0px;
+    justify-content: space-around;
 
 }
