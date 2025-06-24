@@ -1,0 +1,11 @@
+#contentTitle__text{
+    font-size: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}

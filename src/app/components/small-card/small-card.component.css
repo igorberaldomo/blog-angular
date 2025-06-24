@@ -9,7 +9,7 @@
     width: 300px;
     height: 400px;
     border-radius: 10px;
-    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.356);
 
 }
 
@@ -24,14 +24,21 @@
 
 #smallCard__title{
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
     margin: 0px;
-    padding: 0px;
-    font-size: 30px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#smallCard__link{
+    text-decoration: none;
+    color: black;
 }
 
 #smallCard__text{
-    font-size: 12px;
+    width: 250px;
+    font-size: 16px;
     margin: 0px;
     padding: 0px;
 }

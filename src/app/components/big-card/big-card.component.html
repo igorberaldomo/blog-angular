@@ -1,7 +1,7 @@
 <div id="bigCard">
-    <img src="{{image}}" alt="image" id="bigCard__image">
+    <img [src]="image" alt="image" id="bigCard__image">
     <div id="bigCard__content">
-    <h3 id="bigCard__title"><a [routerLink]="['content', id]">{{title}}</a></h3>
+    <h3 id="bigCard__title"><a id="bigCard__link" [routerLink]="['content', id]">{{title}}</a></h3>
     <p id="bigCard__text">{{text}}</p>
     </div>
 </div>
