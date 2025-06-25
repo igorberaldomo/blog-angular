@@ -14,7 +14,9 @@ import { Data } from "../../data/data"
 export class ContentComponent implements OnInit {
   text: string = '';
   title: string = '';
+  image: string = '';
   private id: string | null = '0';
+
 
   constructor(
     private route: ActivatedRoute
@@ -31,6 +33,7 @@ export class ContentComponent implements OnInit {
     const array = Data.filter(value => value.id == id)[0]
     this.title = array.title;
     this.text = array.text;
+    this.image = array.image
   
   }
 }
